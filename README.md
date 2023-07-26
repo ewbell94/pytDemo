@@ -4,3 +4,7 @@ This repository is built for a demonstration of how to get started with PyTorch.
 + [Installing Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
 + [Creating an environment from a .yml file](https://stackoverflow.com/questions/48016351/how-to-make-new-anaconda-env-from-yml-file)
 
+If the .yml does not work for you, try building the environment from scratch:
+```
+conda create --name pytDemo scikit-learn pytorch matplotlib jupyterlab
+```
